@@ -1,4 +1,5 @@
 def hello_t(array)
+<<<<<<< HEAD
   if block_given?
     i = 0 
   
@@ -12,6 +13,10 @@ def hello_t(array)
     puts "Hey! No block was given!"
   end
 end 
+=======
+ array.each { |name| puts name } 
+end
+>>>>>>> c951aca5819e9c00264e497c385324b2bd71a1d9
 
 # call your method here!
 
